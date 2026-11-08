@@ -2,3 +2,9 @@
 import streamlit as st
 import stramlit.components.v1 as stc
 from PIL import image
+
+
+#load EDA
+import pandas as pd
+from sklearn.feature_estraction.text import CountVectorizer
+from sklearn.metrics.pairwise import consine_similarity,linear_kernel
